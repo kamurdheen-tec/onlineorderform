@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Order Form</title>
+</head>
+<body>
+
+<h2>Online Order Form</h2>
+
+<form>
+
+    Customer Name:<br>
+    <input type="text" name="name" required><br><br>
+
+    Email:<br>
+    <input type="email" name="email" required><br><br>
+
+    Phone Number:<br>
+    <input type="tel" name="phone"><br><br>
+
+    Product:<br>
+    <select name="product">
+        <option>Laptop</option>
+        <option>Mobile</option>
+    </select><br><br>
+
+     Quantity:<br>
+    <input type="number" name="quantity" min="1" max="10"><br><br>
+
+    Delivery Address:<br>
+    <textarea name="address" rows="4" cols="30"></textarea><br><br>
+
+    Payment Method:<br>
+    <input type="radio" name="payment"> Cash on Delivery
+    <input type="radio" name="payment"> Online Payment
+    <br><br>
+
+    <input type="submit" value="Place Order">
+    <input type="reset" value="Clear">
+
+</form>
+
+</body>
+</html>
